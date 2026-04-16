@@ -1,6 +1,22 @@
 {
   "rewrites": [
     {
+      "source": "/ticket",
+      "destination": "https://ticket-navy-eight.vercel.app/ticket"
+    },
+    {
+      "source": "/ticket/:path*",
+      "destination": "https://ticket-navy-eight.vercel.app/ticket/:path*"
+    },
+    {
+      "source": "/_next/:path*",
+      "destination": "https://ticket-navy-eight.vercel.app/_next/:path*"
+    },
+    {
+      "source": "/api/:path*",
+      "destination": "https://ticket-navy-eight.vercel.app/api/:path*"
+    },
+    {
       "source": "/(.*)",
       "destination": "/index.html"
     }
