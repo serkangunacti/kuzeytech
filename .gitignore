@@ -25,3 +25,5 @@ dist-ssr
 
 # Nested repos
 Ticket/
+.vercel
+.env*.local
