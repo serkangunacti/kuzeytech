@@ -2,19 +2,19 @@
   "rewrites": [
     {
       "source": "/ticket",
-      "destination": "https://ticket-navy-eight.vercel.app/ticket"
+      "destination": "https://ticket-93qc.vercel.app/ticket"
     },
     {
       "source": "/ticket/:path*",
-      "destination": "https://ticket-navy-eight.vercel.app/ticket/:path*"
+      "destination": "https://ticket-93qc.vercel.app/ticket/:path*"
     },
     {
       "source": "/_next/:path*",
-      "destination": "https://ticket-navy-eight.vercel.app/_next/:path*"
+      "destination": "https://ticket-93qc.vercel.app/_next/:path*"
     },
     {
       "source": "/api/:path*",
-      "destination": "https://ticket-navy-eight.vercel.app/api/:path*"
+      "destination": "https://ticket-93qc.vercel.app/api/:path*"
     },
     {
       "source": "/(.*)",
