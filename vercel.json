@@ -5,6 +5,10 @@
       "destination": "https://ticket-93qc.vercel.app/ticket"
     },
     {
+      "source": "/ticket/",
+      "destination": "https://ticket-93qc.vercel.app/ticket"
+    },
+    {
       "source": "/ticket/:path*",
       "destination": "https://ticket-93qc.vercel.app/ticket/:path*"
     },
